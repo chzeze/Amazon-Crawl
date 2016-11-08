@@ -1,0 +1,179 @@
+/* CSS Document */
+.btn-success {
+	color: #ffffff;
+	background-color: #43ac6a;
+	border-color: #3c9a5f;
+}
+
+.abtn:hover {
+	color: #008cba;
+	text-decoration: none;
+}
+
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 8px 12px;
+	font-size: 15px;
+	line-height: 1.4;
+	border-radius: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#extract-button {
+	height: 39px;
+	width: 120px;
+}
+
+#freeget {
+	height: 680px;
+}
+
+.input-group {
+	margin-top: 20px;
+	position: relative;
+	display: table;
+	border-collapse: separate;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.readCon_left {
+	float: left;
+	visibility: visible;
+	z-index: 1;
+}
+
+.readCon_right {
+	float: right;
+	visibility: visible;
+	z-index: 1;
+}
+
+.panel {
+	margin-bottom: 21px;
+	background-color: #ffffff;
+	border: 1px solid transparent;
+	border-radius: 0;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-default {
+	border-color: #dddddd;
+}
+
+#video-info-panel {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-top: 10px;
+	display: block;
+}
+
+.panel-body {
+	padding: 15px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.input-group-btn {
+	position: relative;
+	font-size: 0;
+	white-space: nowrap;
+	width: 1%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.form-control {
+	position: relative;
+	padding-left: 8px;
+	z-index: 2;
+	float: left;
+	margin-bottom: 0;
+	display: block;
+	width: 100%;
+	height: 35px;
+	font-size: 15px;
+	line-height: 1.4;
+	color: #6f6f6f;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #cccccc;
+	border-radius: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+#url-input table {
+	table-layout: fixed;
+	empty-cells: show;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+#url-input td {
+	height: 22px;
+}
+
+#url-input tr:hover {
+	background-color: #EDEDED;
+}
+
+#url-input table {
+	border: 1px solid #cad9ea;
+	color: #666;
+}
+
+#url-input table th {
+	background-repeat: repeat-x;
+	background-color: #f5fafe;
+	height: 25px;
+}
+
+#url-input table td,#url-input table th {
+	border: 1px solid #cad9ea;
+	padding: 0 0.5em 0;
+}
+
+#url-input table tr.alter {
+	background-color: #f5fafe;
+}
+
+.fuck_h {
+	text-align: center;
+}
+.botCenter {
+    width: 100% !important;
+    height: 35px;
+    line - height: 35px;
+    /*position: fixed;*/
+    bottom: 0px;
+    left: 40%;
+    font - size: 14px;
+    color: #000; 
+	text-align:center;
+}
